@@ -1,0 +1,6 @@
+1. Progra em JS que escreve "Olá mundo JS!"
+Para rodar em node, basta no terminal digitar: node programa.JS
+
+Atalho Sftt + Alt + seta para baixo = duplica linha
+
+2. Ler dois números e apresentar a soma entre eles.
