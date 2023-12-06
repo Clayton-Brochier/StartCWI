@@ -50,9 +50,9 @@ console.log(num4);//retornará 4, pois foi feito decremento
 
 let x = 5;
 let y = 10;
-console.log(x += y);
-console.log(x = x + 5);
-console.log(x = x * 3);
+console.log(x += y);//retornará 15, pois será x + y
+console.log(x = x + 5);// retornará 20, pois agora x = 15 e ao somar(+)5 = 20
+console.log(x = x * 3);//retornará 60, pois agora x = 20 e multiplicado por 3 = 60
 
 
 
