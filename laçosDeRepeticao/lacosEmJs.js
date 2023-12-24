@@ -55,32 +55,4 @@ Valor 2
 Valor 3
 Valor undefined */
 
-/*Há duas maneiras de consertar esse código: definir a expressão de condição como i < arr.length ou i <= arr.length - 1.
-
-Exercícios de Laços e Loops em JavaScript
-
-Faça um programa que peça uma nota, entre zero e dez. Mostre uma mensagem caso o valor seja inválido e continue pedindo até que o usuário informe um valor válido. */
-
-let nota;
-
-for (;;) {
-  nota = parseFloat(prompt(`Digite uma nota entre zero e dez: `));
-  if (!isNaN(nota) && nota >= 0 && nota <= 10) {
-    alert(`Você digitou a nota ${nota}.`);
-    break;
-  } else {
-    alert("Nota inválida! A nota  deve estar entre zero e dez.");
-  }
-}
-
-/*
-for (;;) { ... }: Um loop for sem condição de parada explícita, tornando-o infinito. Isso significa que o código dentro do loop será executado repetidamente até que seja interrompido pelo comando break.
-
-nota = parseFloat(prompt("Digite uma nota entre zero e dez:"));: Solicita ao usuário que insira uma nota por meio do prompt. A função parseFloat é usada para converter a entrada do usuário em um número decimal e armazenar na variável nota.
-
-if (!isNaN(nota) && nota >= 0 && nota <= 10) { ... }: Verifica se a nota é um número (!isNaN(nota)) e se está dentro do intervalo desejado (entre 0 e 10).
-
-alert("Você digitou a nota " + nota + ".");: Se a nota for válida, exibe uma mensagem com a nota e encerra o loop usando break.
-
-else { ... }: Se a nota não for válida, exibe uma mensagem de valor inválido e continua o loop, solicitando uma nova entrada do usuário.*/
-
+/*Há duas maneiras de consertar esse código: definir a expressão de condição como i < arr.length ou i <= arr.length - 1.*/
