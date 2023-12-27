@@ -14,7 +14,7 @@ for (;;) {
   }
 }
 
-/*
+/*EXPLICAÇÃO
 for (;;) { ... }: 
 Um loop for sem condição de parada explícita, tornando-o infinito. 
 Isso significa que o código dentro do loop será executado repetidamente até que seja interrompido pelo comando break.
@@ -33,6 +33,11 @@ else { ... }:
 Se a nota não for válida, exibe uma mensagem de valor inválido e continua o loop, solicitando uma nova entrada do usuário.*/
 
 /* 
+
+
+
+
+
 2)Faça um programa que leia um nome de usuário e a sua senha e não aceite a senha igual ao nome do usuário, mostrando uma mensagem de erro e voltando a pedir as informações. 
 
 
